@@ -49,15 +49,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cstrachan4/redemption-studio.git"
+    "url": "git+https://github.com/Cstrachan4/base-repo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Cstrachan4/redemption-studio/issues"
-  },
-  "homepage": "https://github.com/Cstrachan4/redemption-studio#readme",
   "browserslist": [
     "last 2 versions",
     "> 1%"
