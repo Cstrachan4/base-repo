@@ -1,8 +1,5 @@
-@import '~include-media/dist/include-media';
-@import './tokens.scss';
-@import './functions.scss';
-@import './variables.scss';
-@import './mixins.scss';
 @import './fonts.scss';
-@import './type.scss';
+@import './globals.scss';
 @import './global.scss';
+
+@import './layout/home.scss';

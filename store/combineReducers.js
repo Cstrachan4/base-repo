@@ -1,11 +1,11 @@
-import { applyMiddleware, createStore, combineReducers } from 'redux';
+import { createStore, combineReducers } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
-import homepage from './reducers/homepage';
+import index from './index/reducer';
 
 export default function configureStore(preloadedState = {}) {
   const reducer = combineReducers({
-    homepage: homepage
+    index: index
   });
 
   return createStore(reducer, preloadedState, composeWithDevTools());
