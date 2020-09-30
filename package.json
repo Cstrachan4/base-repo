@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@epegzz/sass-vars-loader": "^6.0.0",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "autoprefixer": "^9.7.4",
@@ -23,10 +24,11 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "resolve-url-loader": "^3.1.1",
-    "url-loader": "^3.0.0"
+    "url-loader": "^3.0.0",
+    "webpack-merge": "^4.2.2"
   },
   "scripts": {
-    "dev": "next -p 3000",
+    "dev": "next -p 3300",
     "build": "next build",
     "start": "next start -p $PORT",
     "storybook:react": "start-storybook -s ./public/ -c .storybook/react -p 6006",

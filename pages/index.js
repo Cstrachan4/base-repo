@@ -3,11 +3,11 @@ import { connect, useSelector, useDispatch } from "react-redux";
 import { motion } from "framer-motion";
 import * as indexActions from '../store/index/actions.js';
 
-import HeadMeta from '../components/HeadMeta';
-import Example from '../components/_refcomponent';
+import HeadMeta from 'components/HeadMeta';
+import Example from 'components/_refcomponent';
 
-import { fadeIn } from '../lib/animations.js';
-import '../lib/styles.js';
+import { fadeIn } from 'lib/animations.js';
+import 'lib/styles.js';
 
 function IndexPage() {
   const { index } = useSelector(state => state);
