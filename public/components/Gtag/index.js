@@ -1,9 +1,9 @@
 import clsx from 'clsx';
 
-export default function Gtag({ 
+export default function Gtag({
 	trackingId
 }) {
- 
+
   return (
   	<>
 	    <script async src={`https://www.googletagmanager.com/gtag/js?id=${trackingId}`}/>
@@ -13,7 +13,7 @@ export default function Gtag({
 		      		window.dataLayer = window.dataLayer || [];
 			  		function gtag(){dataLayer.push(arguments);}
 			  		gtag('js', new Date());
-			  		gtag('config', '${trackingId}');');
+			  		gtag('config', '${trackingId}');
 		      	`,
 	        }}
 	    />
