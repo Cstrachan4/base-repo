@@ -1,8 +1,6 @@
-@import './tokens.scss';
-
 @function spacer($size) {
   $spaceTokens: map-get($tokens, 'space');
-  @return map-get($spaceTokens, $size); 
+  @return map-get($spaceTokens, $size);
 }
 
 @function u($n, $delta-pixels: 0, $unit-size: 8) {
